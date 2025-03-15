@@ -12,11 +12,9 @@ This project develops a smart hearing aid system that leverages deep neural netw
 ## Project Structure
 - **data/:** Instructions or scripts for downloading/preprocessing the MS-SNSD dataset.
 - **src/:** Contains source code including: <br>
-    train.py: Model training script. <br>
-    inference.py: Inference and testing script. <br>
-    dsp.py: DSP functions (filtering and amplification). <br>
-    model.py: Model architecture and transfer learning integration. <br>
-    main.py: Main script for real-time deployment on Raspberry Pi. <br>
+    model_training.ipynb: Data acquisition, transfer learning, model training and conversion script. <br>
+    inference_notebook.ipynb: Inference and testing script. <br>
+    
 - **docs/:** Documentation, including the thesis and poster files. 
 - **models/:** Saved models and TensorFlow Lite converted models.
 
@@ -35,6 +33,6 @@ This system has potential as a component in commercial hearing aids and assistiv
 This project is licensed under the MIT License – see the LICENSE file for details.
 
 ## Acknowledgements
-Supervisor: Prof. Goh Chin Hock, Prof. Madya Ir. Dr. <br>
+Supervisor: Prof. Goh Chin Hock <br>
 Dataset: Microsoft Scalable Noisy Speech Dataset (MS-SNSD) which can be found here https://github.com/microsoft/MS-SNSD <br>
 Special thanks to all contributors and open-source communities whose tools and frameworks made this project possible. <br>
